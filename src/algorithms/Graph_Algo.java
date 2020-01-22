@@ -242,9 +242,10 @@ public class Graph_Algo implements graph_algorithms, Serializable {
 			
 			s = min.getKey();
 			Iterator<edge_data> i = g1.getE(s).iterator();	
-			while(i.hasNext()) {                         
+			while(i.hasNext()) {                            
 				edge_data v = i.next();
-				if(g1.getNode(s).getWeight()+v.getWeight()<g1.getNode(v.getDest()).getWeight()) {
+				//if src edge vertex Weight + edge Weight < dest vertex - update
+				if(g1.getNode(s).getWeight()+v.getWeight()<g1.getNode(v.getDest()).getWeight()) { 
 					g1.getNode(v.getDest()).setWeight(g1.getNode(s).getWeight()+v.getWeight());
 					g1.getNode(v.getDest()).setInfo(""+g1.getNode(s).getKey());
 				}
@@ -269,7 +270,7 @@ public class Graph_Algo implements graph_algorithms, Serializable {
 		if(g1.getNode(src)==null||g1.getNode(dest)==null) {   // if node is not exist
 			return null;
 		}
-		if(src==dest) {
+		if(src==dest) {  //return only src vertex 
 			List<node_data> n = new ArrayList<node_data>();
 			n.add(g1.getNode(src));
 			return n;
@@ -306,7 +307,7 @@ public class Graph_Algo implements graph_algorithms, Serializable {
 		}
 		for (int i = 0; i < targets.size()-1; ) {    // give the shortest path between target list
 			v = shortestPath(targets.get(i), targets.get(i+1));
-			if(v==null) {
+			if(v==null) {            //if don't have a path.
 				return null;
 			}
 			n.addAll(v); 
