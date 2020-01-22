@@ -18,7 +18,7 @@ import utils.Point3D;
  */
 public class Game_Algo {
 	public static final double EPS = 0.000001;
-	
+
 	/**
 	 * add robot near to the fruits.
 	 * @param fruit
@@ -27,7 +27,7 @@ public class Game_Algo {
 	 */
 	public static void addRobotNearFruit(int robot, ArrayList<Fruit> fruit, game_service game) {
 		for (int i = 0; i < robot; i++) {
-			game.addRobot(fruit.get(i%fruit.size()).getEdge().getSrc());
+			game.addRobot(fruit.get(i%fruit.size()).getEdge().getSrc()); //add robot mod fruits
 			//game.addRobot((int)(Math.random()*40));
 		}
 	}
@@ -66,7 +66,7 @@ public class Game_Algo {
 		}
 		return null;
 	}
-	
+
 	/**
 	 * The function returns the next node on the path to a fruit.
 	 * @param src
@@ -80,25 +80,25 @@ public class Game_Algo {
 		edge_data tmin = null;
 		double candidate = 0;
 		Iterator<String> f_iter = scenario.game.getFruits().iterator();
-		while(f_iter.hasNext()) {
+		while(f_iter.hasNext()) {          // shortest Path Dist between robot to fruit
 			String f = f_iter.next();	
 			try {
 				edge_data t = getFruitEdge(f,scenario.gr);
-				if(t.getTag()==-1||t.getTag()==id) {
-				if(min==-1) {
-					min	= scenario.G.shortestPathDist(src,scenario.gr.getNode(t.getSrc()).getKey());
-					dist = scenario.gr.getNode(t.getSrc()).getKey();
-					tmin = t;
-				}
-				else {
-					candidate =  scenario.G.shortestPathDist(src,scenario.gr.getNode(t.getSrc()).getKey());
-					dist2 = scenario.gr.getNode(t.getSrc()).getKey();
-				if(candidate<min) {
-					min =  candidate;
-					dist = dist2;
-					tmin = t;
-				}
-				}
+				if(t.getTag()==-1||t.getTag()==id) {       // if else robot not go to this fruit. 
+					if(min==-1) {         //get to min edge
+						min	= scenario.G.shortestPathDist(src,scenario.gr.getNode(t.getSrc()).getKey());
+						dist = scenario.gr.getNode(t.getSrc()).getKey();
+						tmin = t;
+					}
+					else {
+						candidate =  scenario.G.shortestPathDist(src,scenario.gr.getNode(t.getSrc()).getKey());
+						dist2 = scenario.gr.getNode(t.getSrc()).getKey();
+						if(candidate<min) {
+							min =  candidate;
+							dist = dist2;
+							tmin = t;
+						}
+					}
 				}
 			} catch (JSONException e) {
 				e.printStackTrace();
@@ -107,21 +107,20 @@ public class Game_Algo {
 		if(tmin!=null)
 			tmin.setTag(id);
 		List<node_data> n = new ArrayList<node_data>();
-        n =  scenario.G.shortestPath(src,dist);
-        if(n!=null&&n.size()>1) {
-        	ans = n.get(1).getKey();
-        	scenario.gr.getEdge(n.get(0).getKey(), n.get(1).getKey()).setTag(-1);
-        }
-        if(n!=null&&n.size()==1) {
-        	if(tmin!=null) {
-        	tmin.setTag(-1);
-        	ans = tmin.getDest();
-        	}
-        }
-        
+		n =  scenario.G.shortestPath(src,dist);  // insert the path to list
+		if(n!=null&&n.size()>1) {
+			ans = n.get(1).getKey();       // the next step in path to fruit
+			scenario.gr.getEdge(n.get(0).getKey(), n.get(1).getKey()).setTag(-1);     
+		}
+		if(n!=null&&n.size()==1) {       //if the robot is in the  src edge fruit
+			if(tmin!=null) {
+				tmin.setTag(-1);
+				ans = tmin.getDest();
+			}
+		}
+
 		return ans;
 	}
-
 
 
 }

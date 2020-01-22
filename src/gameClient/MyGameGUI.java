@@ -4,12 +4,14 @@ import Server.Game_Server;
 import Server.game_service;
 import algorithms.Graph_Algo;
 import dataStructure.*;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import utils.Point3D;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.table.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
@@ -23,15 +25,16 @@ import dataStructure.node_data;
 import utils.Range;
 
 import static gameClient.KML_Logger.KML_Save;
+import static gameClient.SimpleDB.*;
 
-public class MyGameGUI extends JFrame implements MouseListener {
+public class MyGameGUI<Public> extends JFrame implements MouseListener {
 
     graph gra = new DGraph();                   //GUI elements
     Scenario s;
     Graph_Algo ga = new Graph_Algo();
     JMenuBar menuFrame;
-    JMenu fileMenu, robotsMenu;
-    JMenuItem openItem, saveKmlItem, saveItem, automaticItem, manualItem, savePngItem;
+    JMenu fileMenu, robotsMenu,gameTable;
+    JMenuItem openItem, saveKmlItem, saveItem, automaticItem, manualItem, savePngItem,tableItem,BestTableItem,CompTableItem;
 
     LinkedList<Point3D> points = new LinkedList<Point3D>();         //Compilations elements
     private int kRADIUS = 5;
@@ -62,7 +65,7 @@ public class MyGameGUI extends JFrame implements MouseListener {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
         this.setBounds(500, 500, 600, 600);
-        this.setTitle("The maze of Waze 2");
+        this.setTitle("The maze of Waze 3");
         initComponents();
         actionsGui();
         this.setVisible(true);
@@ -82,7 +85,7 @@ public class MyGameGUI extends JFrame implements MouseListener {
         initComponents();
         this.setLayout(new FlowLayout());
         this.setBounds(500, 500, 600, 600);
-        this.setTitle("The maze of Waze 2");
+        this.setTitle("The maze of Waze 3");
         this.gra = g;
         this.ga.init(g);
         Collection<node_data> nd = this.gra.getV();
@@ -141,6 +144,21 @@ public class MyGameGUI extends JFrame implements MouseListener {
         robotsMenu.add(automaticItem);
 
         menuFrame.add(robotsMenu);
+
+        gameTable = new JMenu("Game Table");
+        tableItem = new JMenuItem("Show Table");
+        tableItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, ActionEvent.CTRL_MASK));
+        gameTable.add(tableItem);
+
+        BestTableItem = new JMenuItem("Show Current Table");
+        BestTableItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_B, ActionEvent.CTRL_MASK));
+        gameTable.add(BestTableItem);
+
+        CompTableItem = new JMenuItem("Compare stats Table");
+        CompTableItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, ActionEvent.CTRL_MASK));
+        gameTable.add(CompTableItem);
+
+        menuFrame.add(gameTable);
     }
 
     /**
@@ -199,7 +217,257 @@ public class MyGameGUI extends JFrame implements MouseListener {
                 actionsGui();
             }
         });
+        tableItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                GaTable();
+                actionsGui();
+            }
+        });
+        BestTableItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                BestTable();
+                actionsGui();
+            }
+        });
+        CompTableItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                comTable();
+                actionsGui();
+            }
+        });
     }
+
+    private void comTable() {
+        JFrame f = new JFrame();
+        SimpleDB.main(null);
+
+        String col[] = {"Place","Position","Id", "Level number", "Score", "Moves", "Date"};
+
+        DefaultTableModel tableModel = new DefaultTableModel(col, 0);
+        // The 0 argument is number rows.
+
+        JTable table = new JTable(tableModel);
+
+        //location compare to class
+        ArrayList<Integer> pos = new ArrayList<>();
+        ArrayList<Integer> loc = new ArrayList<>();
+        int posloc=0;
+        for (int lev1=0;lev1<24;lev1++) {
+            for (int row = 0; row < tableModel.getRowCount(); row++) {
+                if (pos.get(lev1) < (int) table.getValueAt(row, 3)) pos.set(lev1,posloc++);
+            }
+            posloc=0;
+        }
+
+
+        //our top score
+        int idMax=0;
+        int scoMax=0;
+        int levMax=0;
+        int movesMax=0;
+        for (int i = 0; i < DBsize; i++) {
+            int id0 = SimpleDB.id.get(i);
+            if (id0 > idMax) idMax = id0;
+            int sco = score.get(i);
+            if (sco > scoMax) scoMax = sco;
+            int lev = levelId.get(i);
+            if (lev > levMax) levMax = lev;
+            int moves0 = moves.get(i);
+            if (moves0 > movesMax) movesMax = moves0;
+            Date dat = dateTime.get(i);
+
+
+            Object[] data = {i,pos.get(i),idMax, levMax, scoMax, movesMax, dat};
+
+            tableModel.addRow(data);
+        }
+
+            table.setBounds(30, 40, 200, 300);
+            // adding it to JScrollPane
+            JScrollPane sp = new JScrollPane(table);
+            f.add(sp);
+
+            // Frame Size
+            f.setSize(500, 200);
+            TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(table.getModel());
+            table.setRowSorter(sorter);
+
+            List<RowSorter.SortKey> sortKeys = new ArrayList<>(25);
+            sortKeys.add(new RowSorter.SortKey(0, SortOrder.ASCENDING));
+            //sortKeys.add(new RowSorter.SortKey(0, SortOrder.DESCENDING));
+            sortKeys.add(new RowSorter.SortKey(1, SortOrder.ASCENDING));
+            sortKeys.add(new RowSorter.SortKey(2, SortOrder.ASCENDING));
+            sortKeys.add(new RowSorter.SortKey(3, SortOrder.ASCENDING));
+            sortKeys.add(new RowSorter.SortKey(4, SortOrder.ASCENDING));
+            sorter.setSortKeys(sortKeys);
+            f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+            // Frame Visible = true
+            f.setVisible(true);
+
+
+
+
+
+    }
+
+    private void BestTable() {
+        JFrame f = new JFrame();
+        SimpleDB.main(null);
+
+        String col[] = {"Place", "Id", "Level number", "Score", "Moves", "Date"};
+
+        DefaultTableModel tableModel = new DefaultTableModel(col, 0);
+        // The 0 argument is number rows.
+
+        JTable table = new JTable(tableModel);
+
+        //insert the data to a table in gui
+
+        for (int i = 0; i < DBsize; i++) {
+            int id0 = SimpleDB.id.get(i);
+            int sco = score.get(i);
+            int lev = levelId.get(i);
+            int moves0 = moves.get(i);
+            Date dat = dateTime.get(i);
+
+
+            Object[] data = {i, id0, lev, sco, moves0, dat};
+
+            tableModel.addRow(data);
+
+
+        }
+
+        int occurrance = 0;
+        Integer stage = 0;
+        ArrayList<Integer> topLevel = null;
+        int lev = 0;
+        String idNum = JOptionPane.showInputDialog("Enter id: ");
+        for (int row = 0; row < tableModel.getRowCount(); row++) {
+            for (int colu = 0; colu < tableModel.getColumnCount(); colu++) {
+                if (table.getValueAt(row, colu).equals(idNum)) {                     //number of games
+                    occurrance++;
+                }
+                if (table.getValueAt(row, 1).equals(idNum) && (Integer) table.getValueAt(row, 2) > stage) {        //current stage
+                    stage = (Integer) table.getValueAt(row, 2);
+                }
+                if (topLevel.get((int) table.getValueAt(row, 2)) != null && table.getValueAt(row, 3) != null) {
+                    if (table.getValueAt(row, 1).equals(idNum) && (int) table.getValueAt(row, 3) > topLevel.get((int) table.getValueAt(row, 2)))      //top score for each level
+                    {        //current stage
+                        topLevel.set(topLevel.get((int) table.getValueAt(row, 2)), (int) table.getValueAt(row, 3));
+                    }
+                }
+            }
+
+            JOptionPane.showMessageDialog(null, "Number of games you played: " + occurrance +
+                    "\nCurrent Stage: " + stage);
+        }
+
+        //location compare to class
+        ArrayList<Integer> pos = new ArrayList<>();
+        ArrayList<Integer> loc = new ArrayList<>();
+        int posloc=0;
+        for (int lev1=0;lev1<24;lev1++) {
+            for (int row = 0; row < tableModel.getRowCount(); row++) {
+                if (pos.get(lev1) < (int) table.getValueAt(row, 3)) pos.set(lev1,posloc++);
+            }
+            posloc=0;
+        }
+
+
+        String col1[] = {"Level num", "Best grade", "Place"};                                                //second table of our top score
+
+        DefaultTableModel tableModel1 = new DefaultTableModel(col1, 0);
+
+        JTable table1 = new JTable(tableModel1);
+        Iterator it = topLevel.iterator();
+        while (it.hasNext()) {
+            int i = 0;
+            Object[] data = {i, topLevel.get(i), pos};
+
+            tableModel1.addRow(data);
+
+        }
+
+        table.setBounds(30, 40, 200, 300);
+        // adding it to JScrollPane
+        JScrollPane sp = new JScrollPane(table);
+        f.add(sp);
+
+        // Frame Size
+        f.setSize(500, 200);
+        TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(table.getModel());
+        table.setRowSorter(sorter);
+
+        List<RowSorter.SortKey> sortKeys = new ArrayList<>(25);
+        sortKeys.add(new RowSorter.SortKey(0, SortOrder.ASCENDING));
+        //sortKeys.add(new RowSorter.SortKey(0, SortOrder.DESCENDING));
+        sortKeys.add(new RowSorter.SortKey(1, SortOrder.ASCENDING));
+        sortKeys.add(new RowSorter.SortKey(2, SortOrder.ASCENDING));
+        sortKeys.add(new RowSorter.SortKey(3, SortOrder.ASCENDING));
+        sortKeys.add(new RowSorter.SortKey(4, SortOrder.ASCENDING));
+        sorter.setSortKeys(sortKeys);
+        f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        // Frame Visible = true
+        f.setVisible(true);
+    }
+
+
+
+
+
+
+
+    private void GaTable() {
+        JFrame f = new JFrame();
+        SimpleDB.main(null);
+
+        String col[] = {"Place","Id", "Level number", "Score", "Moves", "Date"};
+
+        DefaultTableModel tableModel = new DefaultTableModel(col, 0);
+        // The 0 argument is number rows.
+
+        JTable table = new JTable(tableModel);
+
+        for (int i = 0; i < DBsize; i++) {
+            int id0 = SimpleDB.id.get(i);
+            int sco = score.get(i);
+            int lev = levelId.get(i);
+            int moves0 = moves.get(i);
+            Date dat = dateTime.get(i);
+
+
+            Object[] data = {i,id0, lev, sco, moves0, dat};
+
+            tableModel.addRow(data);
+
+
+        }
+
+        table.setBounds(30, 40, 200, 300);
+        // adding it to JScrollPane
+        JScrollPane sp = new JScrollPane(table);
+        f.add(sp);
+
+        // Frame Size
+        f.setSize(500, 200);
+        TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(table.getModel());
+        table.setRowSorter(sorter);
+
+        List<RowSorter.SortKey> sortKeys = new ArrayList<>(25);
+        sortKeys.add(new RowSorter.SortKey(0, SortOrder.ASCENDING));
+        //sortKeys.add(new RowSorter.SortKey(0, SortOrder.DESCENDING));
+        sortKeys.add(new RowSorter.SortKey(1, SortOrder.ASCENDING));
+        sortKeys.add(new RowSorter.SortKey(2, SortOrder.ASCENDING));
+        sortKeys.add(new RowSorter.SortKey(3, SortOrder.ASCENDING));
+        sortKeys.add(new RowSorter.SortKey(4, SortOrder.ASCENDING));
+        sorter.setSortKeys(sortKeys);
+        f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        // Frame Visible = true
+        f.setVisible(true);
+    }
+
+
 
     /**
      * Save KML file using KML logger
@@ -207,10 +475,10 @@ public class MyGameGUI extends JFrame implements MouseListener {
     private void SaveKML() {
        int i =  Integer.parseInt(JOptionPane.showInputDialog("Enter scenario number between 0-23"));
                 Scenario s = new Scenario(i); // you have [0,23] games
-               int finish = KML_Save(s);
+                KML_Save(s);
 
-            if(finish==1)JOptionPane.showMessageDialog(null, "Save complete");
-            if(finish==-1)JOptionPane.showMessageDialog(null, "Save Failed");
+            JOptionPane.showMessageDialog(null, "Save complete");
+
     }
 
     /**
@@ -651,7 +919,29 @@ public class MyGameGUI extends JFrame implements MouseListener {
     public void mouseExited(MouseEvent mouseEvent) {
 
     }
+    private JComponent createAlternating(DefaultTableModel model)
+    {
+        JTable table = new JTable( model )
+        {
+            public Component prepareRenderer(TableCellRenderer renderer, int row, int column)
+            {
+                Component c = super.prepareRenderer(renderer, row, column);
+
+                //  Alternate row color
+
+                if (!isRowSelected(row))
+                    c.setBackground(Color.YELLOW);
+
+                return c;
+            }
+        };
+
+        table.setPreferredScrollableViewportSize(table.getPreferredSize());
+        table.changeSelection(0, 0, false, false);
+        return new JScrollPane( table );
+    }
 }
+
 
 
 
