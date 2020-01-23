@@ -31,7 +31,8 @@ The options that the GUI can do:
 1)The GUI can Open a Saved graph file as long as the file is in the same serializable format.
 2)The GUI can save graphs as serializable or as png file.
 3)The GUi allows to drive the robots manually or Automaticlly.
-4)Saving the data to KML
+4)Saving the data to KML.
+5)Showing the user score of the game.
 
 A bonus feature was to simulate the apple as apple logo and the robots as andoid logo'and the android wants to eat apples logo.
 
