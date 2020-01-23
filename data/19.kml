@@ -1,0 +1,6779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>The maze of Waze 2</name>
+       <Style id="apple">
+   <IconStyle>
+        <Icon>
+          <href>https://user-images.githubusercontent.com/57434608/72728392-ed8f9f80-3b95-11ea-81e4-566409cc8961.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="banana">
+      <IconStyle>
+        <Icon>
+          <href>https://user-images.githubusercontent.com/57434608/72728436-04ce8d00-3b96-11ea-9acb-fc4993d74103.png</href>
+        </Icon>
+        <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="robot">
+      <IconStyle>
+        <Icon>
+          <href>https://user-images.githubusercontent.com/57434608/72728463-16179980-3b96-11ea-80a8-1525c4977bb3.png</href>
+        </Icon>
+        <hotSpot x="0" y=".5" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+    <Style id="check-hide-children">
+      <ListStyle>
+        <listItemType>checkHideChildren</listItemType>
+      </ListStyle>
+    </Style>
+<Placemark>
+<description>
+Location num:0
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.18750930912026,32.10374591260504
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18750930912026,32.10374591260504,0	35.18961076190476,32.10794390084033,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18750930912026,32.10374591260504,0	35.18787016464891,32.10347331596639,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:1
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.18961076190476,32.10794390084033
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18961076190476,32.10794390084033,0	35.18750930912026,32.10374591260504,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18961076190476,32.10794390084033,0	35.19338913155771,32.10616293613445,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:2
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.19338913155771,32.10616293613445
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19338913155771,32.10616293613445,0	35.18961076190476,32.10794390084033,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19338913155771,32.10616293613445,0	35.19742222276029,32.1051815882353,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19338913155771,32.10616293613445,0	35.194195749798226,32.10774399663865,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:3
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.19742222276029,32.1051815882353
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19742222276029,32.1051815882353,0	35.19338913155771,32.10616293613445,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19742222276029,32.1051815882353,0	35.1988444180791,32.103727739495795,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.1988444180791,32.103727739495795
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.1988444180791,32.103727739495795,0	35.19742222276029,32.1051815882353,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.1988444180791,32.103727739495795,0	35.19589389346247,32.1015651394958,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.19589389346247,32.1015651394958
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19589389346247,32.1015651394958,0	35.1988444180791,32.103727739495795,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19589389346247,32.1015651394958,0	35.20332327199354,32.103255238655464,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19589389346247,32.1015651394958,0	35.195575491525425,32.10349148907563,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:6
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20332327199354,32.103255238655464
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20332327199354,32.103255238655464,0	35.19589389346247,32.1015651394958,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20332327199354,32.103255238655464,0	35.2016888087167,32.10592668571429,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20332327199354,32.103255238655464,0	35.204809147699756,32.103073507563025,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:7
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.2016888087167,32.10592668571429
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.2016888087167,32.10592668571429,0	35.20115813882163,32.10750774621849,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.2016888087167,32.10592668571429,0	35.20332327199354,32.103255238655464,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.2016888087167,32.10592668571429,0	35.20574312671509,32.10625380168067,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:8
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20574312671509,32.10625380168067
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20574312671509,32.10625380168067,0	35.206358703793384,32.10739870756303,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20574312671509,32.10625380168067,0	35.2016888087167,32.10592668571429,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20574312671509,32.10625380168067,0	35.20797194027441,32.10481812605042,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:9
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20797194027441,32.10481812605042
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20797194027441,32.10481812605042,0	35.20574312671509,32.10625380168067,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20797194027441,32.10481812605042,0	35.21219607263922,32.10616293613445,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:10
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.21219607263922,32.10616293613445
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21219607263922,32.10616293613445,0	35.212620608555284,32.10719880336134,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21219607263922,32.10616293613445,0	35.20797194027441,32.10481812605042,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21219607263922,32.10616293613445,0	35.21168662953995,32.10498168403361,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:11
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.21168662953995,32.10498168403361
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21168662953995,32.10498168403361,0	35.21219607263922,32.10616293613445,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21168662953995,32.10498168403361,0	35.21315127845036,32.10427293277311,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:12
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.21315127845036,32.10427293277311
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21315127845036,32.10427293277311,0	35.21168662953995,32.10498168403361,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21315127845036,32.10427293277311,0	35.21032811460856,32.10112898487395,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:13
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.21032811460856,32.10112898487395
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21032811460856,32.10112898487395,0	35.21315127845036,32.10427293277311,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21032811460856,32.10112898487395,0	35.20765353833737,32.10245562184874,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:14
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20765353833737,32.10245562184874
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20765353833737,32.10245562184874,0	35.20737758999193,32.101092638655466,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20765353833737,32.10245562184874,0	35.21032811460856,32.10112898487395,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20765353833737,32.10245562184874,0	35.204809147699756,32.103073507563025,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:15
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.204809147699756,32.103073507563025
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.204809147699756,32.103073507563025,0	35.20459687974173,32.10154696638656,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.204809147699756,32.103073507563025,0	35.20332327199354,32.103255238655464,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.204809147699756,32.103073507563025,0	35.20765353833737,32.10245562184874,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:16
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20459687974173,32.10154696638656
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20459687974173,32.10154696638656,0	35.20737758999193,32.101092638655466,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20459687974173,32.10154696638656,0	35.204257251008876,32.09980234789916,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20459687974173,32.10154696638656,0	35.204809147699756,32.103073507563025,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:17
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20737758999193,32.101092638655466
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20737758999193,32.101092638655466,0	35.20459687974173,32.10154696638656,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20737758999193,32.101092638655466,0	35.20616766263115,32.09920263529412,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20737758999193,32.101092638655466,0	35.20765353833737,32.10245562184874,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:18
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20616766263115,32.09920263529412
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20616766263115,32.09920263529412,0	35.20737758999193,32.101092638655466,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20616766263115,32.09920263529412,0	35.204257251008876,32.09980234789916,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:19
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.204257251008876,32.09980234789916
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.204257251008876,32.09980234789916,0	35.20459687974173,32.10154696638656,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.204257251008876,32.09980234789916,0	35.20616766263115,32.09920263529412,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.204257251008876,32.09980234789916,0	35.199353861178366,32.100474752941174,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:20
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.199353861178366,32.100474752941174
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.199353861178366,32.100474752941174,0	35.204257251008876,32.09980234789916,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.199353861178366,32.100474752941174,0	35.19084191606134,32.10134706218487,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:21
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.19084191606134,32.10134706218487
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19084191606134,32.10134706218487,0	35.199353861178366,32.100474752941174,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19084191606134,32.10134706218487,0	35.18787016464891,32.10347331596639,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:22
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.18787016464891,32.10347331596639
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18787016464891,32.10347331596639,0	35.18750930912026,32.10374591260504,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18787016464891,32.10347331596639,0	35.19084191606134,32.10134706218487,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18787016464891,32.10347331596639,0	35.18950462792575,32.10519976134454,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:23
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.18950462792575,32.10519976134454
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18950462792575,32.10519976134454,0	35.18787016464891,32.10347331596639,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18950462792575,32.10519976134454,0	35.191924482647295,32.104200240336134,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:24
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.191924482647295,32.104200240336134
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.191924482647295,32.104200240336134,0	35.18950462792575,32.10519976134454,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.191924482647295,32.104200240336134,0	35.195575491525425,32.10349148907563,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:25
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.195575491525425,32.10349148907563
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.195575491525425,32.10349148907563,0	35.19589389346247,32.1015651394958,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.195575491525425,32.10349148907563,0	35.191924482647295,32.104200240336134,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.195575491525425,32.10349148907563,0	35.18806120581114,32.099711482352944,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:26
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.18806120581114,32.099711482352944
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18806120581114,32.099711482352944,0	35.195575491525425,32.10349148907563,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18806120581114,32.099711482352944,0	35.18725458757062,32.109306884033614,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:27
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.18725458757062,32.109306884033614
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18725458757062,32.109306884033614,0	35.18806120581114,32.099711482352944,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.18725458757062,32.109306884033614,0	35.19483255367231,32.10943409579832,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:28
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.19483255367231,32.10943409579832
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19483255367231,32.10943409579832,0	35.18725458757062,32.109306884033614,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19483255367231,32.10943409579832,0	35.19243392574657,32.10854361344538,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19483255367231,32.10943409579832,0	35.194195749798226,32.10774399663865,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:29
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.19243392574657,32.10854361344538
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19243392574657,32.10854361344538,0	35.19483255367231,32.10943409579832,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.19243392574657,32.10854361344538,0	35.194195749798226,32.10774399663865,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:30
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.194195749798226,32.10774399663865
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.194195749798226,32.10774399663865,0	35.19338913155771,32.10616293613445,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.194195749798226,32.10774399663865,0	35.19483255367231,32.10943409579832,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.194195749798226,32.10774399663865,0	35.19243392574657,32.10854361344538,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.194195749798226,32.10774399663865,0	35.199523675544796,32.10908880672269,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:31
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.199523675544796,32.10908880672269
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.199523675544796,32.10908880672269,0	35.20115813882163,32.10750774621849,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.199523675544796,32.10908880672269,0	35.194195749798226,32.10774399663865,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:32
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20115813882163,32.10750774621849
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20115813882163,32.10750774621849,0	35.20476669410815,32.108579959663864,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20115813882163,32.10750774621849,0	35.2016888087167,32.10592668571429,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20115813882163,32.10750774621849,0	35.199523675544796,32.10908880672269,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:33
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20476669410815,32.108579959663864
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20476669410815,32.108579959663864,0	35.20115813882163,32.10750774621849,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20476669410815,32.108579959663864,0	35.20769599192897,32.107816689075634,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20476669410815,32.108579959663864,0	35.206358703793384,32.10739870756303,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:34
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.20769599192897,32.107816689075634
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20769599192897,32.107816689075634,0	35.20476669410815,32.108579959663864,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.20769599192897,32.107816689075634,0	35.206358703793384,32.10739870756303,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:35
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.206358703793384,32.10739870756303
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.206358703793384,32.10739870756303,0	35.20476669410815,32.108579959663864,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.206358703793384,32.10739870756303,0	35.20769599192897,32.107816689075634,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.206358703793384,32.10739870756303,0	35.2099248054883,32.10759861176471,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.206358703793384,32.10739870756303,0	35.20574312671509,32.10625380168067,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:36
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.2099248054883,32.10759861176471
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.2099248054883,32.10759861176471,0	35.206358703793384,32.10739870756303,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.2099248054883,32.10759861176471,0	35.21119841323648,32.10794390084033,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:37
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.21119841323648,32.10794390084033
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21119841323648,32.10794390084033,0	35.2099248054883,32.10759861176471,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21119841323648,32.10794390084033,0	35.21217484584342,32.10854361344538,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21119841323648,32.10794390084033,0	35.212620608555284,32.10719880336134,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:38
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.21217484584342,32.10854361344538
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21217484584342,32.10854361344538,0	35.21119841323648,32.10794390084033,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.21217484584342,32.10854361344538,0	35.212620608555284,32.10719880336134,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description>
+Location num:39
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<Point>
+<coordinates> 35.212620608555284,32.10719880336134
+</coordinates>
+</Point>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.212620608555284,32.10719880336134,0	35.21119841323648,32.10794390084033,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.212620608555284,32.10719880336134,0	35.21217484584342,32.10854361344538,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+
+<Placemark> 
+ <LineString>
+  <coordinates>35.212620608555284,32.10719880336134,0	35.21219607263922,32.10616293613445,0  </coordinates>
+ </LineString>
+<Style>
+<LineStyle>
+ <color>#ff0000ff</color> 
+<width>5</width> 
+</LineStyle> 
+</Style>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20476669410815,32.108579959663864</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20737758999193,32.101092638655466</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20392770907119,32.10833067124629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:8.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20622459040522,32.101281022067994</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:15:59Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20382786452202,32.10830100434096</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20652761626355,32.101231512036996</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.202665924846,32.10795575610602</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20546817033671,32.10140461013815</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:00Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20150177615919,32.10760985150562</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20459687974173,32.10154696638656</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20125926719578,32.10720644765283</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20467973641712,32.10214283647409</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:01Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20151232777186,32.10645248726103</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20478243201479,32.102881379681165</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.201936911349584,32.10594670346636</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20547899158251,32.10292799767402</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:02Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20318451316062,32.1060473641625</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.206591185199166,32.102686396348886</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20418164945657,32.1061278164613</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20748009752157,32.102493298320084</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:03Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20543633991427,32.106229049093216</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20830620006155,32.10213189012919</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20629220242115,32.10590011816728</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.209123955886184,32.10172626882574</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:04Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.207207907791705,32.105310272561084</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.209937082904254,32.10132294349193</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20794116712069,32.104837948375476</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21057109339772,32.10139957230583</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:05Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.209282116602296,32.10523523853304</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21179292959463,32.10276024053468</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21092217105549,32.10575737221081</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21301245170783,32.10411833174037</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21233170626735,32.10466952803471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21200574506042,32.105721621191464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:06Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21227561443709,32.10635701804474</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.212775585336644,32.104454732633826</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21259228083991,32.107129683763056</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21240515894881,32.10463398389836</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:07Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2123786319141,32.10660838058958</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21193993149491,32.10485910989411</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.211956313264096,32.10608660547112</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21187336862823,32.10489132001308</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:08Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2110017995254,32.10578272301899</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21224508511529,32.10471144446279</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.209809788292475,32.10540323000412</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21270929030174,32.1044868131476</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:09Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20861777705955,32.10502373698925</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21315127845036,32.10427293277311</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.207574599351204,32.10507407059902</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2120276726071,32.103021656393715</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:10Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2068124272167,32.1055650187786</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21115283558522,32.10204741537507</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20583713585973,32.10619324630698</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21018019737254,32.10120235443033</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:11Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204333749375756,32.106140088392635</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.209419480158715,32.10157968357741</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20290126748988,32.10602451095233</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2088080889165,32.101882944410434</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:12Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20178009554805,32.10577748203344</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.208053006645,32.102257478526795</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20216383833909,32.10515027396765</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20762502964644,32.10231480974662</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:13Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.202610129514575,32.10442083375017</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.207513528988585,32.10176407796945</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20305895643537,32.103687248986</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20740139480427,32.10121021703445</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:14Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20231870869972,32.10302671192586</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20673910261777,32.10119695823354</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.200962127297124,32.102718105078196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.200300060185135,32.102567492336505</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20588510057788,32.10133648978275</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19691635183602,32.10231455485949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:15Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19779103243233,32.101996717045026</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204823640495285,32.10150991696774</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2062116361405,32.101283138606995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19691635183602,32.10231455485949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.196199665161714,32.10178925620815</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20528575315798,32.101434414459874</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2075245967055,32.10181874440388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:16Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19774308421507,32.10292051199431</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20644114211562,32.10124564065878</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.2075245967055,32.10181874440388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.1988444180791,32.103727739495795</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20736545328174,32.10109462161791</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:17Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19838243346892,32.10420000637384</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20652761626355,32.101231512036996</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19791433564084,32.10467852253003</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.205448028779166,32.10140790097657</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:18Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19745060439698,32.10515257491612</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204574425045905,32.101431620205055</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19672273541022,32.10535179029793</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20448481809936,32.100971323650555</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:19Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19554441918014,32.1056385029208</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204371697273224,32.10039024005693</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19438154904295,32.105921457138486</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20426005930436,32.099816773663974</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:20Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19338913155771,32.10616293613445</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20308405574801,32.09996322892962</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19365008576086,32.1066744350856</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20191086048714,32.10012410996008</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:21Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19397674339758,32.107314719995955</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20044575645283,32.10032502063082</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.1940280217464,32.10782012124887</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19857484893472,32.1005545865834</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.193190963827355,32.10820002614325</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19465011105959,32.10095679607611</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19252479864037,32.10850237011402</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19152664292077,32.1012768909654</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19367114875475,32.10900292822431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:23Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.193955668164044,32.10910855507469</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19014152672676,32.101848182657115</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19465547591428,32.10896412540049</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.189257587083816,32.10248063125311</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:24Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19430464580213,32.10803301034</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18857812892476,32.10296677571124</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.196374219852196,32.10829385950006</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18787016464891,32.10347331596639</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:25Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.199523675544796,32.10908880672269</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18750930912026,32.10374591260504</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.188499549278845,32.105724075791244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20076221469116,32.10789073433099</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.1895534642827,32.10782943967086</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:26Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20135943700715,32.10690800499774</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19196966185739,32.106832014512044</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20186800138565,32.10563380441484</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19378087278429,32.10693079204212</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:27Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20276058373661,32.10417492397988</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19492419719798,32.10792786245351</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20332327199354,32.103255238655464</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19781737036113,32.108658121963444</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:28Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204706660664314,32.10308604231329</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20001862205973,32.10861003158131</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20658275948995,32.102688226661954</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20115813882163,32.10750774621849</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:29Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.208304657126035,32.10213265545241</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20166521853657,32.10599696952432</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:15.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.201492471295175,32.106511646997305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20960689470337,32.10148672265974</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.201462113839796,32.10660209300554</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:7.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21085012932188,32.10784947723848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:30Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21130465793261,32.10221648864777</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20115813882163,32.10750774621849</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21248602659518,32.104594851621755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:7.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21085012932188,32.10784947723848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.212966943044094,32.10436213363935</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20397046513509,32.108343375396</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:7.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21085012932188,32.10784947723848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:5.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20753777431993,32.10188383219043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:31Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21204175486218,32.104809837034665</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20568383197236,32.10789945436361</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:7.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21085012932188,32.10784947723848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:5.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20753777431993,32.10188383219043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21206010771652,32.10480095599255</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.206766469627375,32.107421565605364</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:7.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21085012932188,32.10784947723848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:5.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20753777431993,32.10188383219043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:32Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21299027977893,32.104350840871426</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20881694924971,32.10753650890397</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:7.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21085012932188,32.10784947723848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:5.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20753777431993,32.10188383219043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21140575055363,32.10232906799183</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21037577174473,32.10772087367937</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:7.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21085012932188,32.10784947723848</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:5.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20753777431993,32.10188383219043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:33Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.209736445664475,32.10142246309946</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.210964616729434,32.10788051603452</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:5.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20753777431993,32.10188383219043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20130005789298,32.10708491718563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20854465536282,32.102013612096556</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21002275080105,32.10762516581681</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:5.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20753777431993,32.10188383219043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20130005789298,32.10708491718563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:34Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20756484463226,32.10201753975326</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20838714545773,32.10751241548452</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20130005789298,32.10708491718563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:10.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.207505213389844,32.10172300498778</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20737758999193,32.101092638655466</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20646324854744,32.107404568006</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20130005789298,32.10708491718563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:35Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20525064151523,32.10144015119313</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.205919696777066,32.10658220263927</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20130005789298,32.10708491718563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20450748463194,32.10108775800358</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204356853922306,32.106141952544895</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20130005789298,32.10708491718563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:36Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204283785020706,32.09993864887462</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2016127654985,32.10615324638793</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20701037692327,32.10051902245618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.205146162083885,32.099523302707944</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.1998383075833,32.108784454647925</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20701037692327,32.10051902245618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:37Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20616766263115,32.09920263529412</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.194195749798226,32.10774399663865</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20701037692327,32.10051902245618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2069235103913,32.100383329981796</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.194470608011905,32.105899786953586</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.194488051496876,32.10589554253499</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:38Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20652761626355,32.101231512036996</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.195094275901226,32.105748033585705</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:7.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20469678175235,32.10226541929973</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20459687974173,32.10154696638656</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19664386069605,32.105370982409184</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1978796563536,32.104713973664886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:39Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204801881938586,32.10302125528857</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19338913155771,32.10616293613445</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1978796563536,32.104713973664886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204098451939174,32.10316042971703</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18961076190476,32.10794390084033</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.18761063386917,32.103669370100434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1978796563536,32.104713973664886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:40Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20231394773624,32.10302562886079</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18866079342886,32.1043084386775</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1978796563536,32.104713973664886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19071151313999,32.10104470015982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19730541415759,32.101886244407964</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19149140786552,32.10437912187755</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1978796563536,32.104713973664886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19071151313999,32.10104470015982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:41Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19774017210365,32.10291837754943</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.195575491525425,32.10349148907563</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1978796563536,32.104713973664886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19071151313999,32.10104470015982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.198477625004855,32.10410269618535</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18806120581114,32.099711482352944</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19071151313999,32.10104470015982</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:42Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19391375308644,32.106035283123596</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19430789655514,32.1037375606583</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.187712465463996,32.10386004178916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19452660095387,32.10862208686846</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18950462792575,32.10519976134454</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.187712465463996,32.10386004178916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:43Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18748801362551,32.10653008498926</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18852750784918,32.105779927509744</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.187712465463996,32.10386004178916</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19015214926591,32.10076331623527</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19338913155771,32.10616293613445</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20544175444165,32.108404063005565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:44Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19579500558089,32.10216341672644</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19782080643377,32.10865898925503</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20544175444165,32.108404063005565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20332327199354,32.103255238655464</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2025589654958,32.10792397517313</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20544175444165,32.108404063005565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:45Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20592555417102,32.102830991081355</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20647299394842,32.108135358751824</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20544175444165,32.108404063005565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.210099091133664,32.101242584554456</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20476669410815,32.108579959663864</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:8.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21067423592228,32.10780179060228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:46Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2126904399347,32.104495934938704</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.208465493935655,32.10751680744843</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:13.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21203456975512,32.10578845737243</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:8.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21067423592228,32.10780179060228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21196997722415,32.10563868586112</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21119841323648,32.10794390084033</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:8.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21067423592228,32.10780179060228</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:9.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.208015860809574,32.107491602460236</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:47Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20982109769696,32.10540683050711</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.208968322649376,32.107544994410326</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:8.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.20697706071659,32.10545897118986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:10.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.206755380988234,32.101194298583856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20574312671509,32.10625380168067</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20580864155797,32.106375652106294</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:10.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.206755380988234,32.101194298583856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191302052579566,32.10445733507964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:48Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20258899830361,32.104455371639254</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20213679038906,32.10519448246568</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:10.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.206755380988234,32.101194298583856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191302052579566,32.10445733507964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19589389346247,32.1015651394958</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20470535063716,32.103086202537106</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:10.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.206755380988234,32.101194298583856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191302052579566,32.10445733507964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:49Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19430789655514,32.1037375606583</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2046231065451,32.10173557843918</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:10.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.206755380988234,32.101194298583856</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:10.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191302052579566,32.10445733507964</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18950462792575,32.10519976134454</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20632015822084,32.10126540767277</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19596483613161,32.105536205384894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.192617293503794,32.10200338909727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:50Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.192921445175855,32.1040067052141</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.204809147699756,32.103073507563025</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19596483613161,32.105536205384894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.192617293503794,32.10200338909727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.1934646458279,32.10242964351498</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.200823766167694,32.10268662949412</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19596483613161,32.105536205384894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.192617293503794,32.10200338909727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:51Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19224309272069,32.1018151501176</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19838592673629,32.10419643535774</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.19596483613161,32.105536205384894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20024131259888,32.108394617003874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.189282781710176,32.10032598721558</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19510530882473,32.10574534901059</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20024131259888,32.108394617003874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.205686216872444,32.10789768479634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:52Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18725458757062,32.109306884033614</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.194195749798226,32.10774399663865</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Apple value:12.0
+</description> 
+<TimeStamp>
+<when> 2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#apple</styleUrl>
+<Point>
+<coordinates>35.20024131259888,32.108394617003874</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.205686216872444,32.10789768479634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19461224566349,32.108849390843275</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20013942654086,32.108493174141586</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.205686216872444,32.10789768479634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21183080938315,32.10761258434085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:53Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.199523675544796,32.10908880672269</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20476669410815,32.108579959663864</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:14.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.205686216872444,32.10789768479634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21183080938315,32.10761258434085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20166617709936,32.10599411361375</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20487957391406,32.108496204201124</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21183080938315,32.10761258434085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.192377977567766,32.10663955164159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:54Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20574312671509,32.10625380168067</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20115813882163,32.10750774621849</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21183080938315,32.10761258434085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.192377977567766,32.10663955164159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.209605770612036,32.10533827819621</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.199523675544796,32.10908880672269</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.21183080938315,32.10761258434085</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.192377977567766,32.10663955164159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:55Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.21185403656276,32.107600415468724</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19390801280973,32.1071800004813</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:12.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.192377977567766,32.10663955164159</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191195737837226,32.10450124838465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.208968322649376,32.107544994410326</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18992792969225,32.107794401271136</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191195737837226,32.10450124838465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1950555158297,32.1057574648415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:56Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.20580603462795,32.10637080350224</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18750930912026,32.10374591260504</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191195737837226,32.10450124838465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1950555158297,32.1057574648415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2016888087167,32.10592668571429</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18750930912026,32.10374591260504</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191195737837226,32.10450124838465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1950555158297,32.1057574648415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:57Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.2007999613503,32.102681214168776</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18750930912026,32.10374591260504</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191195737837226,32.10450124838465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1950555158297,32.1057574648415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19838592673629,32.10419643535774</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18750930912026,32.10374591260504</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191195737837226,32.10450124838465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1950555158297,32.1057574648415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Robot id:4
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:58Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.19626376579251,32.10546346862294</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Robot id:5
+</description>
+<TimeStamp>
+<when>2020-01-23T16:16:59Z</when>
+</TimeStamp>
+<styleUrl>#robot</styleUrl>
+<Point>
+<coordinates>35.18852750784918,32.105779927509744</coordinates>
+</Point>
+"</Placemark>\n"<Placemark>
+<description> Banana value:5.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:59Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.191195737837226,32.10450124838465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description> Banana value:6.0
+</description>
+<TimeStamp>
+<when> 2020-01-23T16:16:59Z</when>
+</TimeStamp>
+<styleUrl>#banana</styleUrl>
+<Point>
+<coordinates>35.1950555158297,32.1057574648415</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
