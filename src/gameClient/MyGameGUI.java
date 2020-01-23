@@ -34,7 +34,7 @@ public class MyGameGUI<Public> extends JFrame implements MouseListener {
     Graph_Algo ga = new Graph_Algo();
     JMenuBar menuFrame;
     JMenu fileMenu, robotsMenu,gameTable;
-    JMenuItem openItem, saveKmlItem, saveItem, automaticItem, manualItem, savePngItem,tableItem,BestTableItem,CompTableItem;
+    JMenuItem openItem, saveKmlItem, saveItem, automaticItem, manualItem, savePngItem,BestTableItem,CompTableItem;
 
     LinkedList<Point3D> points = new LinkedList<Point3D>();         //Compilations elements
     private int kRADIUS = 5;
@@ -146,15 +146,12 @@ public class MyGameGUI<Public> extends JFrame implements MouseListener {
         menuFrame.add(robotsMenu);
 
         gameTable = new JMenu("Game Table");
-        tableItem = new JMenuItem("Show Table");
-        tableItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, ActionEvent.CTRL_MASK));
-        gameTable.add(tableItem);
 
-        BestTableItem = new JMenuItem("Show Current Table");
+        BestTableItem = new JMenuItem("Option A");
         BestTableItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_B, ActionEvent.CTRL_MASK));
         gameTable.add(BestTableItem);
 
-        CompTableItem = new JMenuItem("Compare stats Table");
+        CompTableItem = new JMenuItem("Option B");
         CompTableItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, ActionEvent.CTRL_MASK));
         gameTable.add(CompTableItem);
 
@@ -217,69 +214,52 @@ public class MyGameGUI<Public> extends JFrame implements MouseListener {
                 actionsGui();
             }
         });
-        tableItem.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                GaTable();
-                actionsGui();
-            }
-        });
         BestTableItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                BestTable();
+                bTable();
                 actionsGui();
             }
         });
         CompTableItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                comTable();
+                aTable();
                 actionsGui();
             }
         });
     }
+    /**
+     * Option A is for showing number of games id results,and current level and top score of id player
+     */
 
-    private void comTable() {
+    private void aTable() {
         JFrame f = new JFrame();
         SimpleDB.main(null);
 
-        String col[] = {"Place","Position","Id", "Level number", "Score", "Moves", "Date"};
+        String col[] = {"Place", "Level number", "Score", "Moves", "Date"};
 
         DefaultTableModel tableModel = new DefaultTableModel(col, 0);
         // The 0 argument is number rows.
 
         JTable table = new JTable(tableModel);
 
-        //location compare to class
-        ArrayList<Integer> pos = new ArrayList<>();
-        ArrayList<Integer> loc = new ArrayList<>();
-        int posloc=0;
-        for (int lev1=0;lev1<24;lev1++) {
-            for (int row = 0; row < tableModel.getRowCount(); row++) {
-                if (pos.get(lev1) < (int) table.getValueAt(row, 3)) pos.set(lev1,posloc++);
-            }
-            posloc=0;
-        }
-
+        JOptionPane.showMessageDialog(f, "Number of games: " +numberGames
+        +"\nCurrent level:  23");
 
         //our top score
-        int idMax=0;
-        int scoMax=0;
-        int levMax=0;
-        int movesMax=0;
-        for (int i = 0; i < DBsize; i++) {
+        numberGames=0;
+        for (int i = 0; i < 24; i++) {
             int id0 = SimpleDB.id.get(i);
-            if (id0 > idMax) idMax = id0;
             int sco = score.get(i);
-            if (sco > scoMax) scoMax = sco;
             int lev = levelId.get(i);
-            if (lev > levMax) levMax = lev;
             int moves0 = moves.get(i);
-            if (moves0 > movesMax) movesMax = moves0;
             Date dat = dateTime.get(i);
 
 
-            Object[] data = {i,pos.get(i),idMax, levMax, scoMax, movesMax, dat};
+            Object[] data = {i, id0, lev, sco, moves0, dat};
 
             tableModel.addRow(data);
+
+
         }
 
             table.setBounds(30, 40, 200, 300);
@@ -305,143 +285,29 @@ public class MyGameGUI<Public> extends JFrame implements MouseListener {
             f.setVisible(true);
 
 
-
-
-
     }
+    /**
+     * Option B is for watching the location of player compared to all of the players
+     */
 
-    private void BestTable() {
+
+    private void bTable() {
         JFrame f = new JFrame();
         SimpleDB.main(null);
-
-        String col[] = {"Place", "Id", "Level number", "Score", "Moves", "Date"};
-
-        DefaultTableModel tableModel = new DefaultTableModel(col, 0);
-        // The 0 argument is number rows.
-
-        JTable table = new JTable(tableModel);
-
-        //insert the data to a table in gui
-
-        for (int i = 0; i < DBsize; i++) {
-            int id0 = SimpleDB.id.get(i);
-            int sco = score.get(i);
-            int lev = levelId.get(i);
-            int moves0 = moves.get(i);
-            Date dat = dateTime.get(i);
-
-
-            Object[] data = {i, id0, lev, sco, moves0, dat};
-
-            tableModel.addRow(data);
-
-
-        }
-
-        int occurrance = 0;
-        Integer stage = 0;
-        ArrayList<Integer> topLevel = null;
-        int lev = 0;
-        String idNum = JOptionPane.showInputDialog("Enter id: ");
-        for (int row = 0; row < tableModel.getRowCount(); row++) {
-            for (int colu = 0; colu < tableModel.getColumnCount(); colu++) {
-                if (table.getValueAt(row, colu).equals(idNum)) {                     //number of games
-                    occurrance++;
-                }
-                if (table.getValueAt(row, 1).equals(idNum) && (Integer) table.getValueAt(row, 2) > stage) {        //current stage
-                    stage = (Integer) table.getValueAt(row, 2);
-                }
-                if (topLevel.get((int) table.getValueAt(row, 2)) != null && table.getValueAt(row, 3) != null) {
-                    if (table.getValueAt(row, 1).equals(idNum) && (int) table.getValueAt(row, 3) > topLevel.get((int) table.getValueAt(row, 2)))      //top score for each level
-                    {        //current stage
-                        topLevel.set(topLevel.get((int) table.getValueAt(row, 2)), (int) table.getValueAt(row, 3));
-                    }
-                }
-            }
-
-            JOptionPane.showMessageDialog(null, "Number of games you played: " + occurrance +
-                    "\nCurrent Stage: " + stage);
-        }
-
-        //location compare to class
-        ArrayList<Integer> pos = new ArrayList<>();
-        ArrayList<Integer> loc = new ArrayList<>();
-        int posloc=0;
-        for (int lev1=0;lev1<24;lev1++) {
-            for (int row = 0; row < tableModel.getRowCount(); row++) {
-                if (pos.get(lev1) < (int) table.getValueAt(row, 3)) pos.set(lev1,posloc++);
-            }
-            posloc=0;
-        }
 
 
         String col1[] = {"Level num", "Best grade", "Place"};                                                //second table of our top score
 
-        DefaultTableModel tableModel1 = new DefaultTableModel(col1, 0);
-
-        JTable table1 = new JTable(tableModel1);
-        Iterator it = topLevel.iterator();
-        while (it.hasNext()) {
-            int i = 0;
-            Object[] data = {i, topLevel.get(i), pos};
-
-            tableModel1.addRow(data);
-
-        }
-
-        table.setBounds(30, 40, 200, 300);
-        // adding it to JScrollPane
-        JScrollPane sp = new JScrollPane(table);
-        f.add(sp);
-
-        // Frame Size
-        f.setSize(500, 200);
-        TableRowSorter<TableModel> sorter = new TableRowSorter<TableModel>(table.getModel());
-        table.setRowSorter(sorter);
-
-        List<RowSorter.SortKey> sortKeys = new ArrayList<>(25);
-        sortKeys.add(new RowSorter.SortKey(0, SortOrder.ASCENDING));
-        //sortKeys.add(new RowSorter.SortKey(0, SortOrder.DESCENDING));
-        sortKeys.add(new RowSorter.SortKey(1, SortOrder.ASCENDING));
-        sortKeys.add(new RowSorter.SortKey(2, SortOrder.ASCENDING));
-        sortKeys.add(new RowSorter.SortKey(3, SortOrder.ASCENDING));
-        sortKeys.add(new RowSorter.SortKey(4, SortOrder.ASCENDING));
-        sorter.setSortKeys(sortKeys);
-        f.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        // Frame Visible = true
-        f.setVisible(true);
-    }
-
-
-
-
-
-
-
-    private void GaTable() {
-        JFrame f = new JFrame();
-        SimpleDB.main(null);
-
-        String col[] = {"Place","Id", "Level number", "Score", "Moves", "Date"};
-
-        DefaultTableModel tableModel = new DefaultTableModel(col, 0);
-        // The 0 argument is number rows.
+        DefaultTableModel tableModel = new DefaultTableModel(col1, 0);
 
         JTable table = new JTable(tableModel);
+        int i = 0;
+        while (i<24) {
 
-        for (int i = 0; i < DBsize; i++) {
-            int id0 = SimpleDB.id.get(i);
-            int sco = score.get(i);
-            int lev = levelId.get(i);
-            int moves0 = moves.get(i);
-            Date dat = dateTime.get(i);
+            Object[] data = {i, maxScore[i], PosLevel[i]};
 
-
-            Object[] data = {i,id0, lev, sco, moves0, dat};
-
-            tableModel.addRow(data);
-
-
+           tableModel.addRow(data);
+            i++;
         }
 
         table.setBounds(30, 40, 200, 300);
@@ -456,11 +322,8 @@ public class MyGameGUI<Public> extends JFrame implements MouseListener {
 
         List<RowSorter.SortKey> sortKeys = new ArrayList<>(25);
         sortKeys.add(new RowSorter.SortKey(0, SortOrder.ASCENDING));
-        //sortKeys.add(new RowSorter.SortKey(0, SortOrder.DESCENDING));
         sortKeys.add(new RowSorter.SortKey(1, SortOrder.ASCENDING));
         sortKeys.add(new RowSorter.SortKey(2, SortOrder.ASCENDING));
-        sortKeys.add(new RowSorter.SortKey(3, SortOrder.ASCENDING));
-        sortKeys.add(new RowSorter.SortKey(4, SortOrder.ASCENDING));
         sorter.setSortKeys(sortKeys);
         f.setDefaultCloseOperation(EXIT_ON_CLOSE);
         // Frame Visible = true
@@ -919,27 +782,7 @@ public class MyGameGUI<Public> extends JFrame implements MouseListener {
     public void mouseExited(MouseEvent mouseEvent) {
 
     }
-    private JComponent createAlternating(DefaultTableModel model)
-    {
-        JTable table = new JTable( model )
-        {
-            public Component prepareRenderer(TableCellRenderer renderer, int row, int column)
-            {
-                Component c = super.prepareRenderer(renderer, row, column);
 
-                //  Alternate row color
-
-                if (!isRowSelected(row))
-                    c.setBackground(Color.YELLOW);
-
-                return c;
-            }
-        };
-
-        table.setPreferredScrollableViewportSize(table.getPreferredSize());
-        table.changeSelection(0, 0, false, false);
-        return new JScrollPane( table );
-    }
 }
 
 
